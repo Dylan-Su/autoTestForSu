@@ -9,21 +9,22 @@ public class BasicAnnotation {
     @Test
     public void testCase1(){
         System.out.println("这是测试用例1");
+        System.out.printf("testCase1线程ID为%s%n",Thread.currentThread().getId());
     }
-
-    @Test
-    public void testCase2(){
-        System.out.println("这是测试方法2");
-    }
-
-    @BeforeMethod
-    public void beforeMethod(){
-        System.out.println("这是在测试方法运行之前运行的");
-    }
-
-    @AfterMethod
-    public void afterMethod(){
-        System.out.println("这是在测试方法运行之后运行的");
-    }
+//
+//    @Test
+//    public void testCase2(){
+//        System.out.println("这是测试方法2");
+//    }
+//
+//    @BeforeMethod
+//    public void beforeMethod(){
+//        System.out.println("这是在测试方法运行之前运行的");
+//    }
+//
+//    @AfterMethod
+//    public void afterMethod(){
+//        System.out.println("这是在测试方法运行之后运行的");
+//    }
 
 }
