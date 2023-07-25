@@ -1,0 +1,23 @@
+[
+  {
+    "description": "这是一个带header新的post请求",
+    "request": {
+      "uri": "/postWithHeader",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "huhansan",
+        "sex": "man"
+      }
+    },
+    "response": {
+      "status": 200,
+      "json": {
+        "huhansan": "false",
+        "status": "1"
+      }
+    }
+  }
+]

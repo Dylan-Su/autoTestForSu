@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "suite">
+    <test name="runAll">
+        <classes>
+            <class name="org.course.code.groups.GroupsOnClass1"/>
+            <class name="org.course.code.groups.GroupsOnClass2"/>
+            <class name="org.course.code.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+    <test name = "runStudent">
+        <groups >
+            <run>
+                <include name = "stu"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="org.course.code.groups.GroupsOnClass1"/>
+            <class name="org.course.code.groups.GroupsOnClass2"/>
+            <class name="org.course.code.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+
+
+</suite>

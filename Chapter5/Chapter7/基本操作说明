@@ -1,0 +1,6 @@
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8089 -c json配置文件
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8089 -c startUp1.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8089 -c startUpGet.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8089 -c startUpPost.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8089 -c startUpWithCookies.json
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8089 -c startUpWithHeader.json

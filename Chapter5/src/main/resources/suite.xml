@@ -3,14 +3,25 @@
     <test name="loginTest">
         <classes>
             <class name="org.course.code.suite.suiteConfig"/>
-            <class name="org.course.code.suite.loginTest"/>
+            <class name="org.course.code.suite.loginTest">
+                <methods>
+                    <include name = "loginSuccess"/>
+                </methods>
+            </class>
         </classes>
     </test>
 
     <test name = "payTest">
         <classes>
             <class name="org.course.code.suite.suiteConfig"/>
-            <class name="org.course.code.suite.payTest"/>
+            <class name="org.course.code.suite.payTest">
+                <methods>
+                    <include name="paySuccess"/>
+                </methods>
+            </class>
         </classes>
     </test>
+    <listeners>
+        <listener class-name = "com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+    </listeners>
 </suite>
